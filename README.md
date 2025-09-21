@@ -1,5 +1,5 @@
 # Digit-Recognition-ANN
-Repository owner: **Merix-X**
+### Repository owner: **Merix-X**
 
 A simple Python project using Keras to train and run a neural network that recognizes handwritten digits from 28x28 pixel images.
 
