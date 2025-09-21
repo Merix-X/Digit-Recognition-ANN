@@ -1,4 +1,5 @@
 # Digit-Recognition-ANN
+Repository owner: **Merix-X**
 
 A simple Python project using Keras to train and run a neural network that recognizes handwritten digits from 28x28 pixel images.
 
@@ -66,7 +67,3 @@ For best results:
 - Use a pen thickness of ~3 pixels
 - Avoid making the digit too large or touching the edges
 - Ensure high contrast: black digit on white background
-
-## 👤 Author
-
-This repository and README were created by **Merix-X**.
