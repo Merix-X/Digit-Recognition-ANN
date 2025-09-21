@@ -9,7 +9,7 @@ This repository contains two main scripts:
 - `train_model.py` — trains a Keras model to recognize digits using the MNIST dataset.
 - `main.py` — loads the trained model and predicts the digit from a user-provided image.
 
-The model is saved as `digit_recognition_model.keras` and can be reused for predictions without retraining.
+The model is saved as `digit_recognition_model.keras` and is already included in this repository — so you're ready to start predicting right away!
 
 ## 📦 Clone the Repository
 
@@ -26,19 +26,21 @@ Before running any scripts, install the required dependencies:
 pip install -r requirements.txt
 ```
 
-## 🏋️‍♂️ Train the Model (if needed)
+## 🏋️‍♂️ Train Your Own Model — or Use the Included One
 
-If you don't already have the file `digit_recognition_model.keras`, you can generate it by running:
+Want to train the model yourself? Just run:
 
 ```bash
 python train_model.py
 ```
 
-This will train the model using the MNIST dataset and save it to disk.
+This will use the MNIST dataset to train a fresh model and save it as `digit_recognition_model.keras`.
+
+Prefer to skip training? No problem — the repository already includes a pre-trained model file, so you can jump straight to predictions.
 
 ## 🔍 Run Prediction
 
-Once the model is available (either downloaded with the repo or trained manually), you can run predictions:
+Once the model is available (either pre-trained or freshly created), you can run predictions:
 
 ```bash
 python main.py
